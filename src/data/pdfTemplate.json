@@ -1,0 +1,150 @@
+{
+    "basePdf": "",
+    "schemas": {
+      "header": {
+        "type": "text",
+        "position": { "x": 50, "y": 20 },
+        "width": 500,
+        "height": 30,
+        "data": "Health Assessment Report",
+        "fontSize": 24,
+        "fontColor": "#5E548E",
+        "alignment": "center"
+      },
+      "logo": {
+        "type": "image",
+        "position": { "x": 450, "y": 20 },
+        "width": 100,
+        "height": 50,
+        "data": "{{logo}}" 
+      },
+      "greeting": {
+        "type": "text",
+        "position": { "x": 50, "y": 80 },
+        "width": 500,
+        "height": 20,
+        "data": "Congratulations, David! 🎉",
+        "fontSize": 14,
+        "fontColor": "#37474F"
+      },
+      "introText": {
+        "type": "text",
+        "position": { "x": 50, "y": 110 },
+        "width": 500,
+        "height": 60,
+        "data": "You've successfully completed the first level of your health assessment. Below, you'll find detailed insights into your current health metrics, along with tailored suggestions and action points to help you achieve your wellness goals.",
+        "fontSize": 12,
+        "fontColor": "#37474F"
+      },
+      "callToAction": {
+        "type": "text",
+        "position": { "x": 50, "y": 190 },
+        "width": 500,
+        "height": 20,
+        "data": "Take some time to go through the report carefully and start implementing the recommendations to see positive changes in your health journey. Remember, small consistent efforts lead to significant results over time.",
+        "fontSize": 12,
+        "fontColor": "#37474F"
+      },
+      "stepsHeading": {
+        "type": "text",
+        "position": { "x": 50, "y": 240 },
+        "width": 500,
+        "height": 20,
+        "data": "Your next steps to a healthier, happier you start here! 💪",
+        "fontSize": 14,
+        "fontColor": "#37474F"
+      },
+      "metrics": [
+        {
+          "type": "text",
+          "position": { "x": 60, "y": 280 },
+          "width": 200,
+          "height": 20,
+          "data": "40%",
+          "fontSize": 24,
+          "fontColor": "#A59EE5"
+        },
+        {
+          "type": "text",
+          "position": { "x": 60, "y": 310 },
+          "width": 200,
+          "height": 20,
+          "data": "Reduces Error Rates",
+          "fontSize": 12,
+          "fontColor": "#37474F"
+        },
+        {
+          "type": "text",
+          "position": { "x": 180, "y": 280 },
+          "width": 200,
+          "height": 20,
+          "data": "15%",
+          "fontSize": 24,
+          "fontColor": "#F2AE72"
+        },
+        {
+          "type": "text",
+          "position": { "x": 180, "y": 310 },
+          "width": 200,
+          "height": 20,
+          "data": "Increases Machinery Efficiency",
+          "fontSize": 12,
+          "fontColor": "#37474F"
+        },
+        {
+          "type": "text",
+          "position": { "x": 300, "y": 280 },
+          "width": 200,
+          "height": 20,
+          "data": "30%",
+          "fontSize": 24,
+          "fontColor": "#A4D4AE"
+        },
+        {
+          "type": "text",
+          "position": { "x": 300, "y": 310 },
+          "width": 200,
+          "height": 20,
+          "data": "Increases Production Output",
+          "fontSize": 12,
+          "fontColor": "#37474F"
+        },
+        {
+          "type": "text",
+          "position": { "x": 420, "y": 280 },
+          "width": 200,
+          "height": 20,
+          "data": "20%",
+          "fontSize": 24,
+          "fontColor": "#F9A8C1"
+        },
+        {
+          "type": "text",
+          "position": { "x": 420, "y": 310 },
+          "width": 200,
+          "height": 20,
+          "data": "Reduces Energy Consumption",
+          "fontSize": 12,
+          "fontColor": "#37474F"
+        }
+      ],
+      "footerText": {
+        "type": "text",
+        "position": { "x": 50, "y": 400 },
+        "width": 500,
+        "height": 20,
+        "data": "Borcelle’s extensive performance measures make it an essential tool for manufacturers looking to improve operational efficiency and promote industry.",
+        "fontSize": 10,
+        "fontColor": "#37474F"
+      },
+      "footer": {
+        "type": "text",
+        "position": { "x": 50, "y": 420 },
+        "width": 500,
+        "height": 20,
+        "data": "123 Anywhere St, Any City, ST 12345 | www.dyadichealth.com | +123-456-7890",
+        "fontSize": 10,
+        "fontColor": "#37474F"
+      }
+    }
+  }

@@ -1,4 +1,5 @@
 import { createRoot } from 'react-dom/client';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 // map
 import 'mapbox-gl/dist/mapbox-gl.css';
